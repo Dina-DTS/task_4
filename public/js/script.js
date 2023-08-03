@@ -4,6 +4,8 @@ form.addEventListener('submit', (e) => {
   e.preventDefault()
   // console.log(document.getElementById('address').value)
   weatherFunction()
+      form.reset()
+
 })
 const errorF = document.getElementById('error')
 const locationF = document.getElementById('location')
